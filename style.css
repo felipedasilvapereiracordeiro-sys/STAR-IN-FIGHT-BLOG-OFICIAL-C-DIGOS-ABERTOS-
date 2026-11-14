@@ -1,0 +1,94 @@
+/*TEMPLANTES 😭🥀✌️"*/
+
+body {
+  text-align: center;
+  font-family: arial;
+  background-color: #131720;
+  color: white;
+  a {
+    color: #FA6BBE
+  }
+  /*NÃO BOTA JUNTO DO CLASS DO LINK,SEU FILHO DA P-"*/
+  .youtube {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .text  {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .intro {
+    max-width: 90px;
+    margin: 0 auto;
+    background-color: #CC1982;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    a {
+      color: white;
+     }
+    }
+  .next {
+    text-align: center;
+    max-width: 140px;
+    margin: 0 auto;
+    background-color: #CC1982;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    a {
+      color: white;
+     }
+    }
+  .back {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #171C27;
+    color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 10px;
+   }
+  .cinza {
+    color: #8F8F8F
+   }
+  .const {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #FFE900;
+    color: black;
+    border: 2px solid white;
+   }
+  
+  .marquee-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  }
+
+  .marquee {
+  display: flex;
+  width: max-content;
+  animation: scroll 25s linear infinite;
+  will-change: transform; /* Melhora a performance via GPU */
+  }
+
+  .marquee-track {
+  display: flex;
+  white-space: nowrap;
+  }
+
+/* Pausa ao passar o mouse (recomendado para UX) */
+  .marquee:hover {
+  animation-play-state: paused;
+  }
+
+  @keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+  }
+}
